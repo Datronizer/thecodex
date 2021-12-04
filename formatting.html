@@ -1,0 +1,79 @@
+<html>
+  <h2> Quotes </h2>
+  <p> Let's quote some famous person. Here is a quote by Jesus himself on the induction of Lebron James into the Hall of Fame:
+    <blockquote>
+      <p> It's so sad that Steve Jobs died of ligma. Ligma balls. </p>
+      <cite>- Jesus H. Christ</cite>
+    </blockquote>
+    Or you can simply quote with "q". Example: <q>Jesus endorsed Lebron James holy shit!!</q>
+  </p>
+
+
+  <h2> More formatting </h2>
+  <p>
+    This is kind of annoying to be honest. Thankfully, this whole page is designed for anyone to hit <strong>F12</strong> and be able to see what each section looks like. Here's an example: If you F12 and look at the <em>Lists</em> section, you'll see that it's filled with <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code>. That's because those are list elements.
+  </p>
+  <p>
+    Now let's do line breaks. Line breaks are done with <code>&lt;br&gt;</code>. Here's an example:<br><br>
+
+    <b>A creak</b><br>
+    If only<br>
+    I could close my eyes<br>
+    and wake up once more<br>
+    on that lonesome boulevard<br>
+    to start over<br>
+    in the small infinity of<br><br>
+
+    A creak.<br><br><br>
+
+    The same thing could actually be done with <code>&lt;pre&gt;</code> which <strong>pre</strong>serves (see what I did there?) formatting and whitespace:
+    <pre>
+      If only
+      I could close my eyes
+      and wake up once more
+      on that lonesome boulevard
+      to start over
+      in the small infinity
+                of
+      A creak.
+    </pre>
+  </p>
+
+
+  <h2> Subscripts, superscripts, etc. </h2>
+  <p> As we all know, water is often represented as H2O. To subscript the 2, we use <code>&lt;sub&gt;</code>. Replace with <code>&lt;sup&gt;</code> and you'll get a superscript instead.<br><br>
+
+    For example: H<sub>2</sub>O, NaHCO<sub>3</sub> vs x<sup>2</sup> + 4x, z<sup>3</sup>
+    <br>
+    But if we're looking into putting a ton of math equations in, we're better off with <strong>MathML</strong> or Math Markup Language.
+    <br>
+    Oh, what about the last thing of this header? Check the bottom of the page. It's <em>small</em>.
+  </p>
+
+  <h2> Attributes </h2>
+  <p> Attributes are things you can put into a tag to change its, well, <em>attributes</em>. For example, the <code>time</code> tag uses the <code>datetime</code> attribute to set the current time. Let's look at more attributes, namely global ones that are used to <strong>link HTML with CSS</strong>.</p>
+
+  <h3> The <code>class</code> attribute</h3>
+  <p> Targets all elements with that <code>class</code> in CSS or Javascript, basically putting a nametag on them. Example below: </p>
+  <p class="example_class">
+    Hi, this is an example!
+  </p>
+
+  <h3> The <code>id</code> attribute</h3>
+  <p> Similar to <code>class</code> but only allowed to use one unique element with that id. It's really specific so avoid it if possible.</p>
+  <p class="example_class" id="ligmaballs">
+    This is ligma.
+  </p>
+
+  <h3> Other common attributes </h3>
+  <p> You can use <code>lang</code> to specify the language, and <code>dir</code> to specify the direction of the text. For example, this list below:
+    <ul>
+      <li lang="en-US"> Hello there! Hi!</li>
+      <li lang="fr"> Bonjour! Salut!</li>
+      <li dir="ltr"> This flows from left to right</li>
+      <li dir="rtl"> (This flows backwards) هذا يتدفق إلى الوراء </li>
+    </ul>
+  </p>
+  <a href="main.html">Back to Home</a>
+  <footer><small>All rights reserved, 2021</small></footer>
+</html>
